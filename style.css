@@ -1,0 +1,27 @@
+
+/* General styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F0E8;
+    color: #292522;
+    font-family: Georgia, serif;
+}
+
+/* Main heading */
+
+h1 {
+    font-size: 64px;
+    font-weight: normal;
+    letter-spacing: -2px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+}
