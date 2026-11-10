@@ -1,4 +1,5 @@
 
+
 /* RESET */
 
 * {
@@ -10,8 +11,8 @@
 /* GENERAL STYLING */
 
 body {
-    background-color: #F5F0E8;
-    color: #292522;
+    background-color: #F4F0E6;
+    color: #3B3028;
     font-family: Georgia, serif;
     line-height: 1.6;
 }
@@ -26,9 +27,10 @@ nav {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
+    color: #3B3028;
 }
 
 nav ul {
@@ -39,8 +41,10 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #292522;
-    font-size: 14px;
+    color: #526B55;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 /* HERO SECTION */
@@ -53,25 +57,20 @@ nav a {
     justify-content: center;
 }
 
-.hero .intro {
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
 h1 {
     font-size: clamp(48px, 8vw, 100px);
     font-weight: normal;
     letter-spacing: -3px;
     line-height: 1.1;
     max-width: 900px;
+    color: #3B3028;
 }
 
 .hero p {
     font-size: 18px;
-    max-width: 500px;
+    max-width: 550px;
     margin-top: 25px;
+    color: #526B55;
 }
 
 /* GENERAL SECTION STYLING */
@@ -84,6 +83,32 @@ section {
     font-size: 42px;
     font-weight: normal;
     margin-bottom: 25px;
+    color: #3B3028;
+}
+
+/* EXPERIENCE, PROJECTS & EDUCATION */
+
+.experience-item,
+.project-item,
+.education-item {
+    margin-bottom: 35px;
+}
+
+.experience-item ul {
+    margin-top: 12px;
+    padding-left: 20px;
+}
+
+.experience-item li {
+    margin-bottom: 8px;
+}
+
+/* LINKS */
+
+.project-item a,
+#contact a {
+    color: #526B55;
+    text-decoration: none;
 }
 
 /* FOOTER */
@@ -94,4 +119,27 @@ footer {
     font-size: 13px;
 }
 
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 80px 7%;
+    }
+
+    section {
+        padding: 60px 7%;
+    }
+}
 
