@@ -1,5 +1,5 @@
 
-/* General styling */
+/* RESET */
 
 * {
     margin: 0;
@@ -7,21 +7,91 @@
     box-sizing: border-box;
 }
 
+/* GENERAL STYLING */
+
 body {
     background-color: #F5F0E8;
     color: #292522;
     font-family: Georgia, serif;
+    line-height: 1.6;
 }
 
-/* Main heading */
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 7%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #292522;
+    font-size: 14px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 75vh;
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .intro {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
 
 h1 {
-    font-size: 64px;
+    font-size: clamp(48px, 8vw, 100px);
     font-weight: normal;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
+    line-height: 1.1;
+    max-width: 900px;
 }
 
-p {
+.hero p {
     font-size: 18px;
-    line-height: 1.7;
+    max-width: 500px;
+    margin-top: 25px;
 }
+
+/* GENERAL SECTION STYLING */
+
+section {
+    padding: 80px 10%;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 30px 10%;
+    border-top: 1px solid #D8CEC0;
+    font-size: 13px;
+}
+
+
