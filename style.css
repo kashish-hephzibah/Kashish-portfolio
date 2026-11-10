@@ -1,5 +1,6 @@
 
 
+
 /* RESET */
 
 * {
@@ -11,8 +12,8 @@
 /* GENERAL STYLING */
 
 body {
-    background-color: #F4F0E6;
-    color: #3B3028;
+    background-color: #49352F;
+    color: #EADFD8;
     font-family: Georgia, serif;
     line-height: 1.6;
 }
@@ -30,7 +31,7 @@ nav {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #3B3028;
+    color: #F4D9D8;
 }
 
 nav ul {
@@ -41,7 +42,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #526B55;
+    color: #B8C5A9;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -63,14 +64,14 @@ h1 {
     letter-spacing: -3px;
     line-height: 1.1;
     max-width: 900px;
-    color: #3B3028;
+    color: #F4D9D8;
 }
 
 .hero p {
     font-size: 18px;
     max-width: 550px;
     margin-top: 25px;
-    color: #526B55;
+    color: #D9B9A5;
 }
 
 /* GENERAL SECTION STYLING */
@@ -83,7 +84,7 @@ section {
     font-size: 42px;
     font-weight: normal;
     margin-bottom: 25px;
-    color: #3B3028;
+    color: #F4D9D8;
 }
 
 /* EXPERIENCE, PROJECTS & EDUCATION */
@@ -107,7 +108,7 @@ section {
 
 .project-item a,
 #contact a {
-    color: #526B55;
+    color: #B8C5A9;
     text-decoration: none;
 }
 
@@ -115,8 +116,9 @@ section {
 
 footer {
     padding: 30px 10%;
-    border-top: 1px solid #D8CEC0;
+    border-top: 1px solid #80665B;
     font-size: 13px;
+    color: #D9B9A5;
 }
 
 /* MOBILE RESPONSIVENESS */
